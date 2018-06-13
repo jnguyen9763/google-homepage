@@ -2,13 +2,22 @@ nav, footer {
     display: block;
 }
 
+nav ul, footer ul {
+    display: inline;
+}
+
 nav ul li, footer ul li {
     display: inline-block;
 }
 
 nav ul li a, footer ul li a {
     text-decoration: none;
-    font: 13px Arial, sans-serif;
+    font: 12px Arial, sans-serif;
+}
+
+nav ul li {
+    position: relative;
+    top: 7px;
 }
 
 nav ul li a {
@@ -16,8 +25,36 @@ nav ul li a {
     opacity: 0.75;
 }
 
+nav ul li a img {
+    position: relative;
+    top: 8px;
+}
+
 footer ul li a {
     color: #666;
+}
+
+.top-left {
+    position: relative;
+    top: 11px;
+    left: 10px;
+}
+
+.top-left li a {
+    margin-left: 13px;
+}
+
+.top-right {
+    float: right;
+    width: 240px;
+}
+
+.top-right li a {
+    margin-left: 10px;
+}
+
+.search-buts p {
+    display: inline-block;
 }
 
 #sign-in {
