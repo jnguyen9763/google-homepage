@@ -3,42 +3,48 @@
     <head>
         <meta charset="utf-8">
         <title>Google</title>
+        <link href="./styles/reset.css" rel="stylesheet" type="text/css">
+        <link href="./styles/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="top-nav">
-            <div class="top-left">
-                <a href="#">About</a>
-                <a href="#">Store</a>
-            </div>
-            <div class="top-right">
-                <a href="#">Gmail</a>
-                <a href="#">Images</a>
-                <a href="#"><img src="./images/googleapps.png" height="36" width="36" alt="Google apps"></a>
-                <a href="#">Sign in</a>
-            </div>
-        </div>
+        <!-- Top Navigation Bar -->
+        <nav class="top-nav">
+            <ul class="top-left">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+            <ul class="top-right">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#"><img src="./images/googleapps.png" height="36" width="36" alt="Google apps"></a></li>
+                <li><a href="#">Sign in</a></li>
+            </ul>
+        </nav>
 
+        <!-- Logo -->
         <img src="./images/googlelogo.png" height="92" width="272" alt="Google's logo">
 
+        <!-- Search Bar -->
         <form action="#">
             <p><input name="search bar"></p>
+            <div class="search-buts">
+                <p><input name="search but" type="submit" value="Google Search"></p>
+                <p><input name="random but" type="submit" value="I'm Feeling Lucky"></p>
+            </div>
         </form>
 
-        <div class="search-buts">
-            <a href="#">Google Search</a>
-            <a href="#">I'm Feeling Lucky</a>
-        </div>
+        <!-- Bottom Navigation Bar-->
+        <nav class="bot-nav">
+            <ul class="bot-left">
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+            </ul>
+            <ul class="bot-right">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
 
-        <div class="bot-nav">
-            <div class="bot-left">
-                <a href="#">Advertising</a>
-                <a href="#">Business</a>
-            </div>
-            <div class="bot-right">
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Settings</a>
-            </div>
-        </div>
     </body>
 </html>
