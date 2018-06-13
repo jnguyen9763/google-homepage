@@ -1,0 +1,16 @@
+a {
+    font: 13px Arial, sans-serif;
+    text-decoration: none;
+}
+
+.top-nav a, .bot-nav a {
+    display: inline-block;
+}
+
+.top-nav a {
+    color: #000;
+}
+
+.bot-nav a {
+    color: #666;
+}
