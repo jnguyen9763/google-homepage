@@ -19,3 +19,12 @@ nav ul li a {
 footer ul li a {
     color: #666;
 }
+
+#sign-in {
+    color: #fff;
+    background: #005dff;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 6px 12px;
+    border: 1px solid #005dff;
+}
