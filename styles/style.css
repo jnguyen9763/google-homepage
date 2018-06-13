@@ -1,16 +1,21 @@
-a {
-    font: 13px Arial, sans-serif;
-    text-decoration: none;
+nav, footer {
+    display: block;
 }
 
-.top-nav a, .bot-nav a {
+nav ul li, footer ul li {
     display: inline-block;
 }
 
-.top-nav a {
-    color: #000;
+nav ul li a, footer ul li a {
+    text-decoration: none;
+    font: 13px Arial, sans-serif;
 }
 
-.bot-nav a {
+nav ul li a {
+    color: #000;
+    opacity: 0.75;
+}
+
+footer ul li a {
     color: #666;
 }
