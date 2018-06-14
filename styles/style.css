@@ -26,7 +26,7 @@ nav ul li a:hover, footer ul li a:hover {
 }
 
 .top-right li a:hover {
-    color: #f2f2f2;
+    color: #666;
 }
 
 nav ul li {
@@ -42,6 +42,12 @@ nav ul li a {
 nav ul li a img {
     position: relative;
     top: 8px;
+}
+
+//nav ul li a img:hover {
+    content: url("./images/googleapps2.png");
+    height: 25px;
+    width: 25px;
 }
 
 footer {
@@ -147,9 +153,15 @@ center {
     color: #666;
     background: #f2f2f2;
     border: 1px solid #f2f2f2;
+    border-radius: 2px;
     height: 34px;
     padding: 0 16px;
     margin: 11px 2px;
+}
+
+.search-buts p input:hover {
+    border: 0.5px lightgray solid;
+    background: linear-gradient(#f9f9f9, #f2f2f2, #f9f9f9);
 }
 
 #sign-in {
